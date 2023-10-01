@@ -1,0 +1,110 @@
+.main{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+/* Define a container for Product Statistics, Database Statistics, and Recent Backups */
+.stats-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  /* Style individual statistic sections */
+  .leftbox {
+    float:left;
+    margin-right: 10px;
+    background: white;
+    height:150px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 500px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    
+  }
+
+
+  .middlebox{
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    width:25%;
+    height:150px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 500px;
+}
+
+.rightbox{
+    float:right;
+    margin-left: 10px;
+    background: white;
+    width:25%;
+    height:150px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 500px;
+    
+}
+
+.leftbox:hover,
+.middlebox:hover,
+.rightbox:hover {
+  background-color: black; 
+  color: white; 
+  
+}
+  
+  .recent-transactions-container {
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 20px;
+    height: 400%;
+    width: 90%;
+    
+  }
+  
+  /* Style the table itself */
+table {
+  border-collapse: collapse; /* Remove space between table cells */
+  width: 100%;
+  border: 1px solid #000; /* Add a border around the table */
+}
+
+/* Style table header cells */
+th {
+  background-color: #ffffff; /* Add a background color to header cells */
+  border: 1px solid #000; /* Add a border around header cells */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style table body cells */
+td {
+  border: 1px solid #000; /* Add a border around data cells */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Alternate row background color for better readability */
+tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.watermark {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.5; /* Adjust the opacity as needed */
+  pointer-events: none; /* Ensure the watermark doesn't interfere with user interactions */
+  z-index: 9999; /* Place it above other elements */
+}

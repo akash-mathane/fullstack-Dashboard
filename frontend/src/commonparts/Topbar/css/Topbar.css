@@ -1,0 +1,59 @@
+.topbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .topbar-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Dashboard{
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  
+  .topbar-menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .topbar-menu a {
+    color: #0f0e0e;
+    text-decoration: none;
+  }
+  
+  
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 100px;
+    margin-top: 10px;
+  }
+  
+ 
+  
+  .Searchbar form {
+    margin-right: 1000px;
+  }
+  
+  
+  .Searchbar input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Searchbar input:focus {
+    outline: none;
+  }
+  
+  
+  

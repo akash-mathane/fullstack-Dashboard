@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .chartbox {
+    flex: 1;
+    flex: row;
+   
+  }
+
+  .chart1{
+    height: 35rem;
+    width: 60rem;
+  }
+  .chart2{
+    height: 40rem;
+    width: 60rem;
+  }
+  
