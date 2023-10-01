@@ -1,0 +1,63 @@
+*{
+   margin:0;
+   padding:0;
+   text-decoration: none;
+}
+.container{
+   display:flex;
+}
+main{
+   width: 100%;
+   padding: 20px;
+}
+.sidebar{
+   background: #768089;
+   color: #fff;
+   height: 100vh;
+   width: 200px;
+   transition: all 0.5s;
+}
+.top_section{
+   display: flex;
+   align-items:center;
+   padding:20px 15px;
+}
+.logo{
+   font-size: 30px;
+}
+.bars{
+   display: flex;
+   font-size: 25px;
+   margin-left: 50px;
+}
+.link{
+   display: flex;
+   color: #fff;
+   padding: 10px 15px;
+   gap: 15px;
+   transition: all 0.5s;
+}
+.link:hover{
+   background:#293846;
+   color: whitesmoke;
+   transition: all 0.5s;
+}
+.active{
+   background: #293846;
+   color: whitesmoke;
+}
+.icon, .link_text{
+   font-size: 20px;
+}
+.watermark {
+   position: fixed;
+   font: bold 16px/1.5 Arial, sans-serif;
+   font-style: italic;
+   font-size: large;
+   color: black;
+   bottom: 10px;
+   right: 10px;
+   opacity: 0.5; /* Adjust the opacity as needed */
+   pointer-events: none; /* Ensure the watermark doesn't interfere with user interactions */
+   z-index: 9999; /* Place it above other elements */
+ }
