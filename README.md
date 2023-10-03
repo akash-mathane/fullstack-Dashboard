@@ -1,11 +1,11 @@
 # Fullstack Dashboard
 
 <p align="center">
-  <img src="images/screenshot1.png" alt="Screenshot 1" width="200">
-  <img src="images/screenshot2.png" alt="Screenshot 2" width="200">
-  <img src="images/screenshot3.png" alt="Screenshot 3" width="200">
-  <img src="images/screenshot4.png" alt="Screenshot 4" width="200">
-  <img src="images/screenshot5.png" alt="Screenshot 5" width="200">
+  <img src="images/Screenshot1.png" alt="Screenshot 1" width="200">
+  <img src="images/Screenshot2.png" alt="Screenshot 2" width="200">
+  <img src="images/Screenshot3.png" alt="Screenshot 3" width="200">
+  <img src="images/Screenshot4.png" alt="Screenshot 4" width="200">
+  <img src="images/Screenshot5.png" alt="Screenshot 5" width="200">
 </p>
 
 ## Overview
