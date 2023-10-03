@@ -4,8 +4,8 @@
   <img src="images/Screenshot1.png" alt="Screenshot 1" height ="300" width="300">
   <img src="images/Screenshot2.png" alt="Screenshot 2" height ="300" width="300">
   <img src="images/Screenshot3.png" alt="Screenshot 3" height ="300" width="300">
-  <img src="images/Screenshot4.png" alt="Screenshot 4" height ="100" width="300">
-  <img src="images/Screenshot5.png" alt="Screenshot 5" height ="300" width="300">
+  <img src="images/Screenshot4.png" alt="Screenshot 4" height ="200" width="300">
+  <img src="images/Screenshot5.png" alt="Screenshot 5" height ="200" width="300">
 </p>
 
 ## Overview
