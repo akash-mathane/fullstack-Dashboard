@@ -1,22 +1,43 @@
-# Full-Stack Dashboard Project
+# Fullstack Dashboard
+
+<p align="center">
+  <img src="images/screenshot1.png" alt="Screenshot 1" width="200">
+  <img src="images/screenshot2.png" alt="Screenshot 2" width="200">
+  <img src="images/screenshot3.png" alt="Screenshot 3" width="200">
+  <img src="images/screenshot4.png" alt="Screenshot 4" width="200">
+  <img src="images/screenshot5.png" alt="Screenshot 5" width="200">
+</p>
 
 ## Overview
 
-This full-stack dashboard project is designed to provide a user-friendly interface for accessing and visualizing data from the Northwind database using React for the frontend, Flask for the backend, and PostgreSQL as the database.
+Welcome to the Fullstack Dashboard! 🚀 This dynamic admin dashboard showcases my skills in full-stack development, data visualization, and database management. 
+It's a powerful tool for monitoring and managing various aspects of your business, leveraging the Northwind database as a data source.
 
-## Features
+## Key Skills Demonstrated
 
-- Interactive data visualization.
-- User authentication and authorization.
-- Real-time updates from the database.
-- CRUD operations on specific data entities.
+- **Full-Stack Development:** I've implemented both frontend and backend components using JavaScript, CSS, React, Python, and Flask.
 
-- ## Technologies Used
+- **Database Management:** The project integrates with a PostgreSQL database and also includes the Northwind SQL file for reference.
 
-- **React**: The front end of the application is built using React, a popular JavaScript library for building user interfaces.
+- **Data Visualization:** I've incorporated interactive charts (sales line chart, pie chart) to make data analysis a breeze.
 
-- **Flask**: The Flask framework is used to create the backend API that serves data to the front end and handles user authentication.
+- **Event Management:** Use the built-in calendar to track and create events effortlessly.
 
-- **PostgreSQL**: PostgreSQL is the chosen database management system for storing and retrieving data from the Northwind database.
+- **Team Management:** Manage team information efficiently within the dashboard.
 
-- **SQLAlchemy**: SQLAlchemy is used to interact with the PostgreSQL database from the Flask application.
+- **Weather Information:** Access real-time weather data for any city by simply searching its name.
+
+## Getting Started
+
+1. Clone this repository to your local machine.
+2. Set up your own PostgreSQL database and configure the Flask backend.
+3. Install the required dependencies for both the frontend and backend.
+4. Launch the project to access the admin dashboard.
+
+## Northwind Database
+
+The Northwind database is included in this repository as `northwind.sql`. You can use this SQL file to set up and populate your own Northwind database for testing and development purposes.
+
+```bash
+# Example command to import the Northwind database using PostgreSQL's psql command-line tool
+psql -U your_username -d your_database_name -a -f northwind.sql
